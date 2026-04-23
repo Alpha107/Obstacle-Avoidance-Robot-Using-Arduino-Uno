@@ -31,11 +31,15 @@ This project helps in understanding sensor interfacing, motor control, and real-
 ## System Diagrams
 
 ### Block Diagram
-![Block Diagram](images/block_diagram.png)  
+
+<img width="469" height="648" alt="Screenshot 2026-04-23 145917" src="https://github.com/user-attachments/assets/d60d964a-a929-4af6-8be7-0233c20dd3a9" />
+
 *Ultrasonic sensors detect obstacles and send signals to the Arduino. Based on the data, the Arduino controls the motor driver to change direction or stop. Buzzer provides audio alerts.*
 
 ### Circuit Diagram
-![Circuit Diagram](images/circuit_diagram.png)  
+
+<img width="3915" height="2292" alt="Bluetooth-Utrasonic-Buzzer-car_bb" src="https://github.com/user-attachments/assets/43066b5e-a08c-49d0-a2ab-b225e4f6ddbc" />
+
 *Ultrasonic sensors, servo motors, and buzzer are connected to Arduino digital pins. Motor driver input pins receive signals from Arduino to drive the four DC motors. Batteries provide separate power for motors and controller.*
 
 ---
